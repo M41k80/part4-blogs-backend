@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzdWFyaW9OdWV2byIsImlkIjoiNjcyYzM2OTVmY2U4NDU5NjQyODg2NmJkIiwiaWF0IjoxNzMwOTUwODI0LCJleHAiOjE3MzA5NTQ0MjR9.8bEPVxAQQZM5S-GrobyjoHN5cHtdlGsyiz64cIDvSeU
+{
+  "title": "Nuevo Blog",
+  "author": "Juan Pérez",
+  "url": "https://example.com",
+  "likes": 15
+}
+
+
+
